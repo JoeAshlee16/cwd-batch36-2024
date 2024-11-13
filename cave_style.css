@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: Poppins;
+    color: black;
+    text-align: center;
+    margin: 40px 0 -40px;
+    padding-bottom: 20px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.carousel{
+    height: 600px;
+    perspective: 400px;
+}
+.carousel-item{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel .carousel-item{
+    width: 400px;
+    height: 500px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: white;
+    width: 100%;
+    background: rgb(0,0,0,0.5);
+}
+.carousel-caption h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.carousel-caption p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.fa-facebook, .fa-square-instagram, .fa-square-twitter, .fa-youtube, .fa-phone{
+    margin-right: 15px;
+}

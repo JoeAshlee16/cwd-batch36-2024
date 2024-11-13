@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <!-- materialize link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- fontawesome cdjns -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+
+    <style>
+        .gonzaga-text {
+        font-weight: bold;
+        font-size: 2.5em; /* Adjust for your design */
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+        }
+        .bg-text {
+        font-weight:250;
+        font-size: 1em; /* Adjust size */
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="purple">
+            <div class="">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo hide-on-med-and-down ">Gonzaga Turismo </a>
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active"><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="attraction.html">Destination</a></li>
+                        <li><a href="#!">Cultures</a></li>
+                        <!-- <li class=""><a href="#" class='dropdown-trigger btn black nav-text' data-target='social1'><i class="material-icons right">arrow_drop_down</i>Connect Us</a></li>      -->
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+
+    <!-- Sidenav content-->
+    <ul class="sidenav" id="mobile-demo">
+        <li><div class="user-view">
+            <div class="background">
+                <img src="image/sidenav_bg.jpg">
+                </div>
+                <a href=""><img class="circle" src="image/gonzaga.jpg"></a>
+                <a href=""><span class="black-text name">Gonzaga Tourism</span></a>
+                <a href="#email"><span class="black-text email">gonzagatourism@gmail.com</span></a>
+            </div>
+        </li>
+        <li class="divider"></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="attraction.html">Destination</a></li>
+        <li><a href="#!">Cultures</a></li>
+    </ul>
+    </header>
+    <!-- parallax -->
+    <div class="parallax-container first-parallax">
+        <div class="overlay-text">
+            <h1 class="center"><span class="gonzaga-text">"EXPLORE GONZAGA </span><span class="bg-text">- Your Serene Paradise of Fun and Adventure"</span></h1>
+        </div>
+        <div class="parallax">
+            <img src="image/bg2.jpg" alt="Explore Gonzaga" class="bg1">
+        </div>
+    </div>
+    <div class="section grey lighten-2">
+        <div class="row">
+            <h2 class="center black-text">Welcome to GONZAGA TOURISM!</h2><br>
+            <div class="card">
+                <div class="col s12 m3">
+                    <div class="card-image">
+                        <img src="image/beach.png" alt="" class="responsive-img materialboxed hoverable" data-caption="Tallag Beach and Rock Formation">
+                        <p class="center">Beach</p>
+                    </div>
+                </div>
+                <div class=" col s12 m3">
+                    <div class="card-image">
+                        <img src="image/cave.jpg" alt="" class="responsive-img materialboxed hoverable" data-caption="Cabanbanan Caves" >
+                        <p class="center">Cave</p>
+                    </div>
+                </div>
+                <div class=" col s12 m3">
+                    <div class="card-image">
+                        <img src="image/volcano3.png" alt="" class="responsive-img materialboxed hoverable" data-caption="Mt. Cagua">
+                        <p class="center">Volcano</p>
+                    </div>
+                </div>
+                <div class=" col s12 m3">
+                    <div class="card-image">
+                        <img src="image/festival.jpg" alt="" class="responsive-img materialboxed hoverable" data-caption="Dawa Festival Street Dance Competetion">
+                        <p class="center">Festival</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="parallax-container">
+        <div class="parallax"><img src="image/bg1.jpg" class=""></div>
+    </div>
+    
+    <!-- footer -->
+    
+    <footer class="page-footer  grey lighten-2 ">
+        <div class="container">
+            <div class="row center">
+                <div class="col s12">
+                    <i class="fa-brands fa-facebook fa-2x blue-text"></i>
+                    <i class="fa-brands fa-square-instagram fa-2x pink-text"></i>
+                    <i class="fa-brands fa-square-twitter fa-2x blue-text"></i>
+                    <i class="fa-brands fa-youtube fa-2x red-text"></i>
+                    <i class="fa-solid fa-phone fa-2x green-text"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container black-text">
+            © 2024 Gonzaga Tourism
+            <span class="right"><i class="material-icons left blue-text left">location_on</i>Gonzaga, Cagayan</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $('.tabs').tabs();
+            // $(".dropdown-trigger").dropdown();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- material Icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <!-- materialize link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Volcano & Falls</title>
+</head>
+<body>
+    <div class="slider fullscreen">
+        <ul class="slides">
+          <li>
+            <img src="image/volcano.png" alt="" class="responsive-img">
+            <div class="caption center-align">
+              <h1>Mt. Cagua</h1>
+              <span class="flow-text light grey-text text-lighten-3" ><i class="material-icons small  white-text">location_on</i>Brgy. Magrafil, Gonzaga, Cagayan</span>
+            </div>
+          </li>
+          <li>
+            <img src="image/volcano3.png" alt="">
+            <div class="caption left-align">
+              <h3>The Best Adventure</h3>
+              <h5 class="light grey-text text-lighten-3">This 1, 133 meter active volcano is part of the Babuyan Island chain of volcanoes. Which is located at Magrafil, Gonzaga, Cagayan. The last eruption was in the year 1907. 
+                The LGU of Gonzaga, Tourism officer shared that it may take us 3-4 hour walk to reach the tip of the mountain. On our way, we will be mesmerize with different eye catching flora. We will also be passing by a two aesthetic water falls. He added that the journey is very tiring  yet, when we will reach the peak,  we'll  witness its breath-taking beauty. </h5>
+            </div>
+          </li>
+          <li>
+            <img src="image/volcano1.png" alt="">
+            <div class="caption right-align">
+              
+            </div>
+          </li>
+          <li>
+            <img src="image/falls.png" alt="" style="opacity: 0.6;">
+            <div class="caption center-align">
+              <h1>Mt.Cagua Falls</h1>
+              <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+            </div>
+          </li>
+          <li>
+            <img src="image/falls2.png" alt="">
+            <div class="caption right-align">
+                <h1>Bagsang Falls</h1>
+                <span class="flow-text light grey-text text-lighten-3" ><i class="material-icons small  white-text">location_on</i>Brgy. Santa Clara, Gonzaga, Cagayan</span>  
+            </div>
+          </li>
+        </ul>
+      </div>
+    <div class="fixed-action-btn">
+      <a href="attraction.html" class="btn-floating btn-large purple pulse">
+          <i class="large material-icons">arrow_forward</i>
+      </a>
+  </div>
+
+
+
+
+
+
+
+
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $('.tabs').tabs();
+            // $(".dropdown-trigger").dropdown();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.materialboxed').materialbox();
+            $('.slider').slider({
+                height: 400
+            });
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
